@@ -7,19 +7,19 @@ int upper = Ask.forInt("Pick an upper number");
 
 int randomRadius = int(random(lower, upper));
 
-// Outer circle - WHITE
+
 fill(255);
 circle(250, 250, upper * 2);
 
-// Middle circle - BLACK
+
 fill(0);
 circle(250, 250, randomRadius * 2);
 
-// Inner circle - WHITE
+
 fill(255);
 circle(250, 250, lower * 2);
 
-// Message
+
 fill(255);
 textAlign(CENTER);
 textSize(20);
